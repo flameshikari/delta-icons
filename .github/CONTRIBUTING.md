@@ -75,7 +75,17 @@ Don't forget to give yourself an entry at the bottom of [app/src/main/res/xml/co
         - com.example/com.example.StartActivity
     ```
 
-    2.3. The icon without the ComponentInfo (the alternative icon):
+    Also you can extended the entry for more options. For example, if your icon named as `pixel_buds` but you want it to go in `Google` category. All available options are described in the example below (more options will appear over time):
+    
+    ```yaml
+    new_icon:
+      category: 'N'
+      compinfos:
+        - com.example/com.example.MainActivity
+        - com.example/com.example.StartActivity
+    ```
+
+    2.4. The icon without the ComponentInfo (the alternative icon):
     
     ```yaml
     # lines omitted for example
