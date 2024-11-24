@@ -1,15 +1,5 @@
-# 1110 requested apps pending 
-# updated 2024-11-21 03:59:07
-
-com.kurogame.wutheringwaves.global/com.kurogame.wutheringwaves.global.KuroSplashActivity:
-    name: Waves
-    reqt: 33
-    reql: 2024-10-31 02:55:03
-    hash: a617443740f6718cde53f5cb60157aaa335e7a5a
-    urls:
-        - https://play.google.com/store/apps/details?id=com.kurogame.wutheringwaves.global
-        - https://f-droid.org/en/packages/com.kurogame.wutheringwaves.global/
-        - https://google.com/search?q=com.kurogame.wutheringwaves.global
+# 1108 requested apps pending 
+# updated 2024-11-24 05:53:05
 
 com.HoYoverse.Nap/com.mihoyo.combosdk.ComboSDKActivity:
     name: Zero

@@ -10,6 +10,8 @@
 	<item drawable="adrenalin" />
 	<item drawable="alive_app" />
 	<item drawable="amazon_chime" />
+	<item drawable="animetail" />
+	<item drawable="animetail_preview" />
 	<item drawable="ankipro" />
 	<item drawable="app_checker" />
 	<item drawable="auto_typer" />
@@ -17,6 +19,7 @@
 	<item drawable="bank_norwegian" />
 	<item drawable="bbdaily" />
 	<item drawable="bergfex" />
+	<item drawable="bluelink" />
 	<item drawable="boardgamegeek" />
 	<item drawable="brain_fm" />
 	<item drawable="brother_print_service" />
@@ -36,6 +39,7 @@
 	<item drawable="drawpile" />
 	<item drawable="droidfish" />
 	<item drawable="drom_baza" />
+	<item drawable="easy_bank" />
 	<item drawable="edenred_wallet" />
 	<item drawable="egym_wellpass" />
 	<item drawable="ember" />
@@ -44,6 +48,7 @@
 	<item drawable="farmatodo" />
 	<item drawable="feeld_dating" />
 	<item drawable="fluidac" />
+	<item drawable="geo_share" />
 	<item drawable="german_dictionary_alt_1" />
 	<item drawable="google_pay_for_business" />
 	<item drawable="grab" />
@@ -53,6 +58,7 @@
 	<item drawable="himitsu" />
 	<item drawable="hoarder_app" />
 	<item drawable="honista" />
+	<item drawable="icbc" />
 	<item drawable="image_sync" />
 	<item drawable="ingresso" />
 	<item drawable="instawork" />
@@ -85,20 +91,24 @@
 	<item drawable="ntodotxt" />
 	<item drawable="oplati" />
 	<item drawable="owly" />
+	<item drawable="pdf_converter" />
 	<item drawable="pillo" />
 	<item drawable="pixel_thermometer" />
 	<item drawable="plex_photos" />
 	<item drawable="po_pixel" />
+	<item drawable="pocketpal_ai" />
 	<item drawable="pokemon_tgc_pocket" />
 	<item drawable="polestar" />
 	<item drawable="powerapp" />
 	<item drawable="prtg" />
 	<item drawable="puppygit" />
 	<item drawable="ra_guide" />
+	<item drawable="rbtlui" />
 	<item drawable="refreezer" />
 	<item drawable="rem" />
 	<item drawable="rescribe" />
 	<item drawable="satstat" />
+	<item drawable="scalable" />
 	<item drawable="sdk_monitor" />
 	<item drawable="security_bank" />
 	<item drawable="simple_calendar_easy_planner" />
@@ -121,6 +131,7 @@
 	<item drawable="volkswagen" />
 	<item drawable="wash_connect" />
 	<item drawable="wordle" />
+	<item drawable="wuthering_waves" />
 	<item drawable="xiaomi_downloads" />
 	<item drawable="zattoo" />
 	<item drawable="zimly" />
@@ -2699,6 +2710,8 @@
 	<item drawable="animepipe" />
 	<item drawable="animescrap" />
 	<item drawable="animestream" />
+	<item drawable="animetail" />
+	<item drawable="animetail_preview" />
 	<item drawable="animetwistflut" />
 	<item drawable="animexstream" />
 	<item drawable="animiru" />
@@ -3403,6 +3416,7 @@
 	<item drawable="bluecord" />
 	<item drawable="blued" />
 	<item drawable="bluelearn" />
+	<item drawable="bluelink" />
 	<item drawable="bluemoon" />
 	<item drawable="blueprint" />
 	<item drawable="blueprints_kustom" />
@@ -4676,6 +4690,7 @@
 	<item drawable="earnin" />
 	<item drawable="easemytrip" />
 	<item drawable="easter_eggs" />
+	<item drawable="easy_bank" />
 	<item drawable="easy_diary" />
 	<item drawable="easy_drawer" />
 	<item drawable="easy_japanese" />
@@ -5406,6 +5421,7 @@
 	<item drawable="genotek" />
 	<item drawable="genshin_drop" />
 	<item drawable="genshin_impact" />
+	<item drawable="geo_share" />
 	<item drawable="geocaching" />
 	<item drawable="geode" />
 	<item drawable="geogebra_3d_calculator" />
@@ -5930,6 +5946,7 @@
 	<item drawable="ibkr" />
 	<item drawable="ica" />
 	<item drawable="icar" />
+	<item drawable="icbc" />
 	<item drawable="ice_box" />
 	<item drawable="icedrive" />
 	<item drawable="iceraven" />
@@ -8344,6 +8361,7 @@
 	<item drawable="pdb_classic" />
 	<item drawable="pdc" />
 	<item drawable="pdd" />
+	<item drawable="pdf_converter" />
 	<item drawable="pdf_doc_scan" />
 	<item drawable="pdf_merge" />
 	<item drawable="pdf_reader" />
@@ -8584,6 +8602,7 @@
 	<item drawable="pocket_plants" />
 	<item drawable="pocketbook" />
 	<item drawable="pocketcasts" />
+	<item drawable="pocketpal_ai" />
 	<item drawable="pockettube" />
 	<item drawable="poco_community" />
 	<item drawable="poco_launcher" />
@@ -8920,6 +8939,7 @@
 	<item drawable="razer_cortex_games" />
 	<item drawable="rbc" />
 	<item drawable="rboard" />
+	<item drawable="rbtlui" />
 	<item drawable="rcx" />
 	<item drawable="reaction_training" />
 	<item drawable="read" />
@@ -9310,6 +9330,7 @@
 	<item drawable="sbpay" />
 	<item drawable="sbs_news" />
 	<item drawable="scala" />
+	<item drawable="scalable" />
 	<item drawable="scalak" />
 	<item drawable="scaleway_manager" />
 	<item drawable="scanbot" />
@@ -11411,6 +11432,7 @@
 	<item drawable="wuestenrot" />
 	<item drawable="wulkanowy_dzienniczek" />
 	<item drawable="wunderlist" />
+	<item drawable="wuthering_waves" />
 	<item drawable="wuxiaworld" />
 	<item drawable="wwe" />
 	<item drawable="wx" />

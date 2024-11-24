@@ -1,0 +1,2 @@
+- 133 new icons, 11578 in total
+- Fixed icons not applying properly
