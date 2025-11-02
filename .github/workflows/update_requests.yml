@@ -1,11 +1,11 @@
 name: Update Requests
 run-name: requests @ ${{ github.sha }}
 
-permissions:
-  contents: write
-
 concurrency:
   group: delta
+
+permissions:
+  contents: write
 
 on:
   workflow_dispatch:
@@ -16,17 +16,23 @@ jobs:
     runs-on: ubuntu-22.04
     defaults:
       run:
-        working-directory: .github/scripts
+        working-directory: resources/scripts
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         token: ${{ secrets.PA_TOKEN }}
 
+    - name: Setup Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.13'
+        cache: pip
+
     - name: Install dependencies
       run: |
-        sudo pip install -r requirements.txt
+        pip install -r requirements.txt
 
     - name: Dump emails
       run: |
@@ -44,7 +50,7 @@ jobs:
         python -u requests_parser.py -r
 
     - name: Commit changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: Update requests.yml
         file_pattern: contribs/requests.yml
