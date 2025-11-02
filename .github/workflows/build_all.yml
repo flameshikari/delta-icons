@@ -1,11 +1,11 @@
 name: Build All
 run-name: ${{ inputs.release_type }} @ ${{ github.sha }}
 
-permissions:
-  contents: write
-
 concurrency:
   group: delta
+
+permissions:
+  contents: write
 
 on:
   workflow_dispatch:
@@ -36,7 +36,6 @@ on:
       changelog:
         description: Changelog (b64 encoded)
 
-
 env:
   token: ${{ secrets.PA_TOKEN || github.token }}
   organization: Delta-Icons
@@ -51,26 +50,41 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         token: ${{ env.token }}
         fetch-depth: 0
 
-    - name: Export variables
-      run: |
-        python -u .github/scripts/resolve_paths.py -p >> $GITHUB_ENV
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v5
 
     - name: Setup Java
-      uses: actions/setup-java@v4
+      uses: actions/setup-java@v5
       with:
+        cache: gradle
         distribution: temurin
         java-version: 18
 
-    - name: Install dependencies
+    - name: Setup Python
+      uses: actions/setup-python@v6
+      with:
+        cache: pip
+        python-version: '3.13'
+
+    - name: Export variables
       run: |
-        sudo apt-get update
-        sudo apt-get install -y optipng
-        sudo pip install -r ${{ env.sd }}/requirements.txt
+        python -u resources/scripts/resolve_paths.py -p >> $GITHUB_ENV
+        due_on=$(TZ=UTC date --iso-8601=seconds -d "$(date +%Y-%m-01) +1 month") >> $GITHUB_ENV
+
+    - name: Install Python dependencies
+      run: |
+        pip install -r ${{ env.sd }}/requirements.txt
+
+    - name: Install Linux dependencies
+      uses: awalsh128/cache-apt-pkgs-action@latest
+      with:
+        packages: optipng
+        version: 1.0
 
     - name: Configure tools
       run: |
@@ -97,7 +111,13 @@ jobs:
 
     - name: Optimize images
       run: |
-        bash ${{ env.sd }}/optimize_images.sh
+        latest_tag=$(git tag --sort version:refname | grep -v 'beta' | tail -n 1)
+        if [[ $latest_tag ]]; then
+            echo "Latest tag is $latest_tag; optimizing images since this tag"
+            optipng $(git diff --name-only $latest_tag -- "***.png") || true
+        else
+            echo 'No release found, skip optimizing'
+        fi
 
     - name: Sort appfilter and drawable
       run: |
@@ -179,7 +199,7 @@ jobs:
         mv -v *play*.aab ${{ env.filename }}.aab 2> /dev/null || true
 
     - name: Upload APKs to Artifacts
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: ${{ env.filename }}
         path: ${{ env.filename }}*.apk
@@ -273,24 +293,25 @@ jobs:
 
     - name: Close the current milestone
       uses: oinume/create-scheduled-milestone-action@main
+      continue-on-error: true
       with:
-        title: ${{ env.version }}
+        title: ${{ env.version_name }}
         state: closed
       env:
         GITHUB_TOKEN: ${{ env.token }}
       if: |
-        github.repository_owner == env.organization &&
         inputs.release_type == 'prod' &&
         inputs.publish == true
 
     - name: Open a new milestone
       uses: oinume/create-scheduled-milestone-action@main
+      continue-on-error: true
       with:
         title: ${{ env.version_next }}
         state: open
+        due_on: '${{ env.due_on }}'
       env:
         GITHUB_TOKEN: ${{ env.token }}
       if: |
-        github.repository_owner == env.organization &&
         inputs.release_type == 'prod' &&
         inputs.publish == true

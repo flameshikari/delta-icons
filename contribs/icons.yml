@@ -12,3 +12,6 @@
 #   category: Google
 #   compinfos:
 #     - com.google.app/com.google.app.MainActivity
+
+carbitlink:
+  - com.google.app/com.google.app.MainActivity

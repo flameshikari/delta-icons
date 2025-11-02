@@ -1,0 +1,27 @@
+# Label when files are added/changed in specific directories
+documentation:
+  - changed-files:
+    - any-glob-to-any-file: 'docs/**'
+
+frontend:
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'src/components/**'
+      - 'src/pages/**'
+      - '**/*.css'
+
+backend:
+  - changed-files:
+    - any-glob-to-any-file: 'api/**'
+
+# Label when a specific file changes
+config:
+  - changed-files:
+    - any-glob-to-any-file: 
+      - 'config.json'
+      - '.env.example'
+
+# Label when files are added to a directory
+database:
+  - changed-files:
+    - any-glob-to-any-file: 'db/migrations/*'
