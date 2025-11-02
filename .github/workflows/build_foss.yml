@@ -1,10 +1,11 @@
 name: Build FOSS
 run-name: foss @ ${{ github.sha }}
 
+concurrency:
+  group: delta
+
 on:
   workflow_dispatch:
-
-concurrency: ${{ github.ref }}
 
 jobs:
   build:
@@ -13,21 +14,28 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     - name: Setup Java
-      uses: actions/setup-java@v4
+      uses: actions/setup-java@v5
       with:
+        cache: gradle
         distribution: temurin
         java-version: 18
 
+    - name: Setup Python
+      uses: actions/setup-python@v6
+      with:
+        cache: pip
+        python-version: '3.13'
+
     - name: Export variables
       run: |
-        python -u .github/scripts/resolve_paths.py -p >> $GITHUB_ENV
+        python -u resources/scripts/resolve_paths.py -p >> $GITHUB_ENV
 
     - name: Install dependencies
       run: |
-        sudo pip install -r ${{ env.sd }}/requirements.txt
+        pip install -r ${{ env.sd }}/requirements.txt
 
     - name: Add new icons
       run: |
@@ -45,8 +53,8 @@ jobs:
 
     - name: Create changelog
       run: |
-        python ${{ env.sd }}/create_changelog.py -p -w -r foss \
-               -x app/src/main/res/values/changelog.xml
+        python ${{ env.sd }}/create_changelog.py \
+          -p -w -r foss -x app/src/main/res/values/changelog.xml
 
     - name: Sort appfilter and drawable
       run: |
@@ -79,7 +87,7 @@ jobs:
         mv -v ${{ steps.sign_step.outputs.signedReleaseFile }} ${{ env.filename }}.apk
 
     - name: Upload signed APK in Artifacts
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: ${{ env.filename }}
         path: ${{ env.filename }}.apk
