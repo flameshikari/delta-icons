@@ -72,7 +72,7 @@
 	<item drawable="ph_manulife" />
 	<item drawable="plezy" />
 	<item drawable="pou_3d" />
-	<item drawable="pou_3d_alt" />
+	<item drawable="pou_3d_alt_1" />
 	<item drawable="qfile_pro" />
 	<item drawable="raise_alarm" />
 	<item drawable="rebootnya" />
@@ -93,6 +93,7 @@
 	<item drawable="super_mario_bros_remastered" />
 	<item drawable="tomb_of_destiny" />
 	<item drawable="touchscreen_dead_pixels_repair" />
+	<item drawable="touchscreen_dead_pixels_repair_alt_1" />
 	<item drawable="touhou" />
 	<item drawable="umo_mobility" />
 	<item drawable="vk_video_live" />
@@ -985,6 +986,7 @@
 	<item drawable="portuguese_dictionary_offline_alt_1" />
 	<item drawable="postbank_alt_1" />
 	<item drawable="poste_italiane_alt_1" />
+	<item drawable="pou_3d_alt_1" />
 	<item drawable="powerup_alt_1" />
 	<item drawable="ppsspp_alt_1" />
 	<item drawable="premier_league_alt_1" />
@@ -1533,6 +1535,7 @@
 	<item drawable="todoist_tangerine" />
 	<item drawable="tooly_alt_1" />
 	<item drawable="torrent_search_alt_1" />
+	<item drawable="touchscreen_dead_pixels_repair_alt_1" />
 	<item drawable="tower_of_fantasy_alt_1" />
 	<item drawable="traewelldroid_alt_1" />
 	<item drawable="transit_alt" />
@@ -9926,7 +9929,6 @@
 	<item drawable="pot_droid" />
 	<item drawable="pou" />
 	<item drawable="pou_3d" />
-	<item drawable="pou_3d_alt" />
 	<item drawable="povo_2" />
 	<item drawable="power_ampache_2" />
 	<item drawable="power_button_remapper" />
