@@ -14,6 +14,7 @@
 	<item drawable="b_and_q" />
 	<item drawable="cube_acr_helper" />
 	<item drawable="deckarr" />
+	<item drawable="delta_alt_4" />
 	<item drawable="digg" />
 	<item drawable="duck_detector" />
 	<item drawable="essentials" />
@@ -22,6 +23,8 @@
 	<item drawable="gamehub" />
 	<item drawable="giant_rx" />
 	<item drawable="github_store" />
+	<item drawable="graph89" />
+	<item drawable="graphie" />
 	<item drawable="guidebook" />
 	<item drawable="huxe" />
 	<item drawable="innocent_witches" />
@@ -39,6 +42,7 @@
 	<item drawable="noti_filter" />
 	<item drawable="only_mods_world" />
 	<item drawable="open_notes" />
+	<item drawable="pangolin" />
 	<item drawable="passione_beauty" />
 	<item drawable="perk" />
 	<item drawable="pilates_down_dog" />
@@ -47,6 +51,7 @@
 	<item drawable="prima_assicurazioni" />
 	<item drawable="proton_meet" />
 	<item drawable="quax" />
+	<item drawable="rereminder" />
 	<item drawable="root_board_game" />
 	<item drawable="royal_london" />
 	<item drawable="saber" />
@@ -56,6 +61,7 @@
 	<item drawable="spotiflac" />
 	<item drawable="starship" />
 	<item drawable="starz" />
+	<item drawable="summit_credit_union" />
 	<item drawable="sure_finance" />
 	<item drawable="taskforge" />
 	<item drawable="tela_brasil" />
@@ -4812,6 +4818,7 @@
 	<item drawable="delivery_club" />
 	<item drawable="dellin" />
 	<item drawable="delta" />
+	<item drawable="delta_alt_4" />
 	<item drawable="delta_dental" />
 	<item drawable="delta_force" />
 	<item drawable="delta_force_garena" />
@@ -6236,10 +6243,12 @@
 	<item drawable="grammarly" />
 	<item drawable="gramophone" />
 	<item drawable="granny_smith" />
+	<item drawable="graph89" />
 	<item drawable="graph_messenger" />
 	<item drawable="graphene_apps" />
 	<item drawable="graphene_info" />
 	<item drawable="graphhopper_maps" />
+	<item drawable="graphie" />
 	<item drawable="graspio" />
 	<item drawable="gratitude" />
 	<item drawable="gratus" />
@@ -9443,6 +9452,7 @@
 	<item drawable="panels" />
 	<item drawable="panels_mkbhd" />
 	<item drawable="panera_bread" />
+	<item drawable="pangolin" />
 	<item drawable="pano_scrobbler" />
 	<item drawable="pantaflix" />
 	<item drawable="paotang" />
@@ -10393,6 +10403,7 @@
 	<item drawable="repix" />
 	<item drawable="replika" />
 	<item drawable="replit" />
+	<item drawable="rereminder" />
 	<item drawable="rescribe" />
 	<item drawable="rescuetime_classic" />
 	<item drawable="reserve" />
@@ -11645,6 +11656,7 @@
 	<item drawable="summary_expressive" />
 	<item drawable="summary_you" />
 	<item drawable="summertime_saga" />
+	<item drawable="summit_credit_union" />
 	<item drawable="summit_for_lemmy" />
 	<item drawable="summoners_companion" />
 	<item drawable="sumup" />
