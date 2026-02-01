@@ -261,6 +261,7 @@
 	<item component="ComponentInfo{app.airmusic.pro/app.airmusic.activities.MainActivity}" drawable="airmusic" />
 	<item component="ComponentInfo{app.airmusic.trial/app.airmusic.activities.MainActivity}" drawable="airmusic" />
 	<item component="ComponentInfo{app.alextran.immich/app.alextran.immich.MainActivity}" drawable="immich" />
+	<item component="ComponentInfo{app.anikku.beta/eu.kanade.tachiyomi.ui.main.MainActivityDefault}" drawable="anikku" />
 	<item component="ComponentInfo{app.anikku/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="anikku" />
 	<item component="ComponentInfo{app.animestream/app.animestream.MainActivity}" drawable="animestream" />
 	<item component="ComponentInfo{app.aresan.miguel.inclusenas/app.aresan.miguel.inclusenas.presentation.splash.SplashActivity}" drawable="inclusenas" />
@@ -4257,6 +4258,7 @@
 	<item component="ComponentInfo{com.eagle.gallery.photos.videos.album.hd.gallery.editor/com.eagle.gallery.pro.activities.MainActivity}" drawable="gallery" />
 	<item component="ComponentInfo{com.eamobile.bejeweled2_na_wf/com.eamobile.bejeweled2_na_wf.main}" drawable="bejeweled_2" />
 	<item component="ComponentInfo{com.eamobile.bejeweled2_row_wf/com.eamobile.bejeweled2_row_wf.main}" drawable="bejeweled_2" />
+	<item component="ComponentInfo{com.eanema.graph89/com.graph89.emulationcore.EmulatorActivity}" drawable="graph89" />
 	<item component="ComponentInfo{com.easemytrip.android/com.easemytrip.android.SplashScreenActivity}" drawable="easemytrip" />
 	<item component="ComponentInfo{com.easilydo.mail/com.easilydo.mail.ui.SplashActivity}" drawable="email_by_edison" />
 	<item component="ComponentInfo{com.easybank.easybank/com.bawagpsk.bawagpsk.ui.splash.SplashActivity}" drawable="easy_bank" />
@@ -7974,6 +7976,7 @@
 	<item component="ComponentInfo{com.motorola.camera1/com.motorola.camera.Camera}" drawable="camera" />
 	<item component="ComponentInfo{com.motorola.camera2/com.motorola.camera.Camera}" drawable="camera" />
 	<item component="ComponentInfo{com.motorola.camera3/com.motorola.camera.Camera}" drawable="camera" />
+	<item component="ComponentInfo{com.motorola.camera5/com.motorola.camera.Camera}" drawable="camera" />
 	<item component="ComponentInfo{com.motorola.camera/com.motorola.camera.Camera}" drawable="camera" />
 	<item component="ComponentInfo{com.motorola.cameraone/com.motorola.camera.Camera}" drawable="camera" />
 	<item component="ComponentInfo{com.motorola.cameraonemtk/com.motorola.camera.Camera}" drawable="camera" />
@@ -8020,6 +8023,7 @@
 	<item component="ComponentInfo{com.moviepass.mobile/com.moviepass.activities.SplashActivity}" drawable="movie_pass" />
 	<item component="ComponentInfo{com.moviesanywhere.goo/com.disney.brooklyn.mobile.ui.main.MainActivity}" drawable="movies_anywhere" />
 	<item component="ComponentInfo{com.movistar.android.mimovistar.es/com.tuenti.messenger.ui.activity.MainActivity}" drawable="mi_movistar" />
+	<item component="ComponentInfo{com.movtery.zalithlauncher.v2/com.movtery.zalithlauncher.ui.activities.SplashActivity}" drawable="zalith_launcher" />
 	<item component="ComponentInfo{com.movtery.zalithlauncher/com.movtery.zalithlauncher.ui.activity.SplashActivity}" drawable="zalith_launcher" />
 	<item component="ComponentInfo{com.mpesch3.onebyone/com.mpesch3.onebyone.OboActivity}" drawable="_1by1" />
 	<item component="ComponentInfo{com.mr3y.ludi/com.mr3y.ludi.MainActivity}" drawable="ludi" />
@@ -8598,6 +8602,7 @@
 	<item component="ComponentInfo{com.okx.tr/com.okinc.core.ok_app.homepage.ui.welcome.WelcomeActivity}" drawable="okx" />
 	<item component="ComponentInfo{com.olacabs.customer/com.olacabs.customer.ui.NewSplashActivity}" drawable="ola_cabs" />
 	<item component="ComponentInfo{com.olacabs.customer/com.olacabs.customer.ui.SplashActivity}" drawable="ola_cabs" />
+	<item component="ComponentInfo{com.olaf.rereminder/com.olaf.rereminder.MainActivity}" drawable="rereminder" />
 	<item component="ComponentInfo{com.olalab.lockscreen/com.olalab.lockscreen.MainActivity}" drawable="lock_screen" />
 	<item component="ComponentInfo{com.olant.honev/com.juanvision.modulelogin.activity.SplashActivity}" drawable="honestview" />
 	<item component="ComponentInfo{com.olivestonelab.mooda.android/com.olivestonelab.mooda.android.view.activity.MainActivity}" drawable="mooda" />
@@ -8852,6 +8857,7 @@
 	<item component="ComponentInfo{com.paullipnyagov.drumpads24/com.paullipnyagov.drumpads24.CustomSplashScreenActivity}" drawable="drum_pads_24" />
 	<item component="ComponentInfo{com.paultirk.yatoo/com.paultirk.yatoo.MainActivity}" drawable="yatoo" />
 	<item component="ComponentInfo{com.pauwma.glyphmuseum/com.pauwma.glyphmuseum.MainActivity}" drawable="glyph_museum" />
+	<item component="ComponentInfo{com.pavelrekun.graphie/com.pavelrekun.graphie.navigation.NavigationActivity}" drawable="graphie" />
 	<item component="ComponentInfo{com.pavelrekun.skit/com.pavelrekun.skit.base.BaseActivity}" drawable="skit" />
 	<item component="ComponentInfo{com.pavelrekun.skit/com.pavelrekun.skit.navigation.NavigationActivity}" drawable="skit" />
 <item component="ComponentInfo{com.pavelrekun.tilla.premium/com.pavelrekun.tilla.base.BaseActivity}" drawable="tilla" />
@@ -11290,6 +11296,7 @@
 	<item component="ComponentInfo{com.sukisu.ultra/com.sukisu.ultra.ui.MainActivity}" drawable="sukisu_ultra" />
 	<item component="ComponentInfo{com.sulkiflee.minimirror/com.sulkiflee.minimirror.MainActivity}" drawable="mirror" />
 	<item component="ComponentInfo{com.summit.stickk/com.summit.stickk.activities.SplashscreenActivity}" drawable="stickk" />
+	<item component="ComponentInfo{com.summitcreditunion.digital/com.lumindigital.MainActivity}" drawable="summit_credit_union" />
 	<item component="ComponentInfo{com.sundirect.sundth/crc6493028f2048013d4f.SplashActivity}" drawable="sun_direct" />
 	<item component="ComponentInfo{com.sunilpaulmathew.debloater/com.sunilpaulmathew.debloater.activities.StartActivity}" drawable="de_bloater" />
 	<item component="ComponentInfo{com.sunilpaulmathew.snotz/com.sunilpaulmathew.snotz.activities.StartActivity}" drawable="snotz" />
@@ -13894,6 +13901,7 @@
 	<item component="ComponentInfo{dev.msfjarvis.aps/com.zeapo.pwdstore.LaunchActivity}" drawable="passwordstore_alt_1" />
 	<item component="ComponentInfo{dev.msfjarvis.claw.android/dev.msfjarvis.claw.android.MainActivity}" drawable="claw" />
 	<item component="ComponentInfo{dev.netlob.spotistats/dev.netlob.spotistats.MainActivity}" drawable="spotistats" />
+	<item component="ComponentInfo{dev.octoshrimpy.quik.fdroid/dev.octoshrimpy.quik.feature.main.MainActivity}" drawable="qksms" />
 	<item component="ComponentInfo{dev.octoshrimpy.quik/dev.octoshrimpy.quik.feature.main.MainActivity}" drawable="qksms" />
 	<item component="ComponentInfo{dev.patrickgold.florisboard.beta/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard_beta" />
 	<item component="ComponentInfo{dev.patrickgold.florisboard.debug/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard_debug" />
@@ -14384,6 +14392,7 @@
 	<item component="ComponentInfo{habittracker.todolist.tickit.daily.planner/habittracker.todolist.tickit.daily.planner.feature.main.SplashActivity}" drawable="habit_tracker" />
 	<item component="ComponentInfo{hacking.learnhacking.learn.hack.ethicalhacking.programming.coding.hackerx.cybersecurity/com.projectx.hackerx.MainActivity}" drawable="hackerx" />
 	<item component="ComponentInfo{hannover.rider/via.rider.activities.HomeActivity}" drawable="sprinti" />
+	<item component="ComponentInfo{hannover.rider/via.rider.activities.MapActivityKt}" drawable="sprinti" />
 	<item component="ComponentInfo{hannover.rider/via.rider.features.splash.SplashActivityKt}" drawable="sprinti" />
 	<item component="ComponentInfo{hannover.rider/via.rider.features.splash.SplashActivity}" drawable="sprinti" />
 	<item component="ComponentInfo{hashengineering.darkcoin.wallet/de.schildbach.wallet.ui.OnboardingActivity}" drawable="dash_wallet" />
@@ -14740,6 +14749,7 @@
 	<item component="ComponentInfo{io.github.rabehx.securify/io.github.rabehx.securify.ui.activity.MainActivity}" drawable="securify" />
 	<item component="ComponentInfo{io.github.ratul.topactivity/io.github.ratul.topactivity.ui.MainActivity}" drawable="current_activity" />
 	<item component="ComponentInfo{io.github.romanvht.byedpi/io.github.dovecoteescapee.byedpi.activities.MainActivity}" drawable="byedpi" />
+	<item component="ComponentInfo{io.github.romanvht.byedpi/io.github.romanvht.byedpi.activities.MainActivity}" drawable="byedpi" />
 	<item component="ComponentInfo{io.github.ronynn.karui/io.github.ronynn.karui.MainActivity}" drawable="karui_todo" />
 	<item component="ComponentInfo{io.github.saeeddev94.xray/io.github.saeeddev94.xray.MainActivity}" drawable="xray" />
 	<item component="ComponentInfo{io.github.saeeddev94.xray/io.github.saeeddev94.xray.activity.MainActivity}" drawable="xray" />
@@ -15365,6 +15375,7 @@
 	<item component="ComponentInfo{me.denley.android.ninepatch/me.denley.android.ninepatch.EditorActivity}" drawable="_9_patch_editor" />
 	<item component="ComponentInfo{me.devsaki.hentoid/me.devsaki.hentoid.activities.SplashActivity}" drawable="hentoid" />
 	<item component="ComponentInfo{me.dt2dev.infinity/me.dt2dev.infinity.MainActivity}" drawable="infinity_p8_player_emulator" />
+	<item component="ComponentInfo{me.easyapps.easynotes/com.kin.easynotes.presentation.MainActivity}" drawable="easy_notes" />
 	<item component="ComponentInfo{me.echeung.moemoekyun.fdroid/me.echeung.moemoekyun.ui.activity.MainActivity}" drawable="listen_moe" />
 	<item component="ComponentInfo{me.edgan.redditslide/me.edgan.redditslide.Activities.Slide}" drawable="slide" />
 	<item component="ComponentInfo{me.fengmlo.qbRemote/me.fengmlo.qb_remote.MainActivity}" drawable="qbittorrent_remote" />
@@ -15755,6 +15766,7 @@
 	<item component="ComponentInfo{net.orizinal.subway/com.kakao.kakaometro.ui.login.LoginActivity}" drawable="kakao_metro" />
 	<item component="ComponentInfo{net.osmand.plus/net.osmand.plus.activities.MapActivity}" drawable="osmandplus" />
 	<item component="ComponentInfo{net.osmand/net.osmand.plus.activities.MapActivity}" drawable="osmand" />
+	<item component="ComponentInfo{net.pangolin.Pangolin/net.pangolin.Pangolin.MainActivity}" drawable="pangolin" />
 	<item component="ComponentInfo{net.petafuel.mobile.vimpay/net.petafuel.mobile.vimpay.StartActivity}" drawable="vimpay" />
 	<item component="ComponentInfo{net.phbwt.paperwork/net.phbwt.paperwork.ui.MainActivity}" drawable="open_paper_view" />
 	<item component="ComponentInfo{net.pluservice.momup/net.pluservice.momup.MainActivity}" drawable="momup" />
@@ -17821,6 +17833,7 @@
 	<item component="ComponentInfo{ru.yandex.taxi/com.yandex.go.activity.alias.DefaultMainActivityAlias}" drawable="yandex_go" />
 	<item component="ComponentInfo{ru.yandex.taxi/com.yandex.go.activity.alias.Go2024AppIconMainActivityAlias}" drawable="yandex_go" />
 	<item component="ComponentInfo{ru.yandex.taxi/com.yandex.go.activity.alias.GoOriginalAppIconMainActivityAlias}" drawable="yandex_go" />
+	<item component="ComponentInfo{ru.yandex.taxi/com.yandex.go.activity.alias.NewYear2026MainActivityAlias}" drawable="yandex_go" />
 	<item component="ComponentInfo{ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity}" drawable="yandex_go_alt_1" />
 	<item component="ComponentInfo{ru.yandex.taxi/ru.yandex.taxi.activity.StartActivity}" drawable="yandex_go_alt_1" />
 	<item component="ComponentInfo{ru.yandex.taximeter.beta/ru.yandex.taximeter.yandex_driver.MainActivity}" drawable="yandex_pro" />
@@ -18350,6 +18363,9 @@
 	<item component="ComponentInfo{web.tradenewton.com/web.tradenewton.com.MainActivity}" drawable="newton" />
 	<item component="ComponentInfo{website.leifs.delta.foss/website.leifs.delta.activities.MainActivity}" drawable="delta_alt_2" />
 	<item component="ComponentInfo{website.leifs.delta.foss/website.leifs.delta.activities.SplashActivity}" drawable="delta_alt_2" />
+	<item component="ComponentInfo{website.leifs.delta.fossdc/website.leifs.delta.activities.MainActivity}" drawable="delta_alt_4" />
+	<item component="ComponentInfo{website.leifs.delta.fossdc/website.leifs.delta.activities.SplashActivity}" drawable="delta_alt_4" />
+<item component="ComponentInfo{website.leifs.delta.fossdc/website.leifs.delta.activities.StartActivity}" drawable="delta_alt_4" />
 	<item component="ComponentInfo{website.leifs.delta/website.leifs.delta.activities.MainActivity}" drawable="delta" />
 	<item component="ComponentInfo{website.leifs.delta/website.leifs.delta.activities.SplashActivity}" drawable="delta" />
 	<item component="ComponentInfo{website.leifs.delta/website.leifs.delta.activities.StartActivity}" drawable="delta" />
