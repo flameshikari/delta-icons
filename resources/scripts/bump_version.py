@@ -90,7 +90,6 @@ with open(target, 'r+') as file:
 
 if args.env:
     print(f'is_beta={is_beta}')
-    print(f'filename=delta-v{version_name}')
     print(f'version=v{version_name}')
     print(f'version_code={version_code}')
     print(f'version_name={version_name}')
