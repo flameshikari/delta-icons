@@ -3,6 +3,7 @@
 	<string name="changelog_date"></string>
 	<string-array name="changelog">
 		<item>0 new icons, 13482 in total</item>
-		<item>Full changelog will be published upon release!</item>
+		<item>Fixed icons not applying properly</item>
+		<item>asd</item>
 	</string-array>
 </resources>

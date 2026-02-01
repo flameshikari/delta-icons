@@ -10,7 +10,7 @@ android {
 		minSdkVersion rootProject.ext.MinSdk
 		targetSdkVersion rootProject.ext.TargetSdk
 		versionCode 213001
-		versionName "2.13.0-beta.1"
+		versionName "2.13.0"
 		multiDexEnabled true
 
 		// Naming app bundles
